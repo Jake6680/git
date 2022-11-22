@@ -1,0 +1,24 @@
+
+git revert commit아이디
+해당 commit아이디를 없애주고 commit 새로 하는 코드
+
+git restore 파일명 
+최근 commit으로 파일을 ctrl+z시켜버린다
+
+git reset --hard(or soft) commit아이디
+해당 commit아이디로 파일을 삭제시킨다
+hard 완전 삭제   soft 되살릴수 있음
+
+
+git clone 주소
+자동으로 불러와준다.
+
+before:
+git pull -u github주소
+최신자료로 다운받기 (merge를 한다 = conflict 발생가능)
+
+
+after:
+git push -u github주소
+올리기
+/* -u 쓰면 다음부터 주소를 생략가능!
