@@ -22,3 +22,15 @@ after:
 git push -u github주소
 올리기
 /* -u 쓰면 다음부터 주소를 생략가능!
+
+
+
+임시 보관 = stash
+git stash save '메모'
+
+삭제:
+git stash clear
+git stash drop 번호
+
+목록 보기:
+git stash list
