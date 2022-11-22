@@ -1,3 +1,13 @@
+git config --global user.email "Email"
+git config --global user.name "Name"
+
+git init
+
+git add .
+git commit -m 'Example'
+git log --oneline
+
+
 
 git revert commit아이디
 해당 commit아이디를 없애주고 commit 새로 하는 코드
