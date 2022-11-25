@@ -8,6 +8,7 @@ git init
 git add .
 git commit -m 'Example'
 git log --oneline
+git status
 
 git branch 브랜츠이름
 git switch 브랜츠이름
