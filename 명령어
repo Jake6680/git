@@ -5,7 +5,7 @@ git revert commit아이디
 git restore 파일명 
 최근 commit으로 파일을 ctrl+z시켜버린다
 
-git reset --hard(or soft) commit아이디
+git reset --hard(or soft) commit아이디임
 해당 commit아이디로 파일을 삭제시킨다
 hard 완전 삭제   soft 되살릴수 있음
 
