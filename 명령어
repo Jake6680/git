@@ -1,3 +1,22 @@
+git config --global user.email "Email"
+git config --global user.name "Name"
+
+git init
+
+
+
+git add .
+git commit -m 'Example'
+git log --oneline
+
+git branch 브랜츠이름
+git switch 브랜츠이름
+
+git branch -D 브랜츠이름   ;병합x된 브랜츠 삭제
+git branch -d 브랜츠이름   ;병합O된 브랜츠 삭제
+
+git merge --squash 브랜츠이름(보조) ;switch main 형식으로
+git rebase main ;switch 보조 형식으로
 
 git revert commit아이디
 해당 commit아이디를 없애주고 commit 새로 하는 코드
